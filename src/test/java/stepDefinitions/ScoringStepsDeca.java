@@ -18,31 +18,9 @@ public class ScoringStepsDeca {
     int score =0;
 
 
-    @Given("I want to add my result {double} sek")
-    public void i_want_to_add_my_result_sek(double time) {
-        p = time;
-        System.out.println("your time in 100m are " + p + " sek");
-    }
 
-    @When("I press add")
-    public void i_press_add() {
-        a = 25.4347;                  //  (a(b-p)^c)
-        b = 18;
-        c = 1.81;
-        d = b - p;
-        e = Math.pow(d, c);
-        result = (int) (a * e);
 
-    }
-
-    @Then("My points would be {int}")
-    public void my_points_would_be(Integer int1) {
-        assertEquals(int1, result);
-        System.out.println("your score was " + result + " point´s");
-
-    }
-
-    @Given("I the event is {string} and the result is {double}")
+    @Given("In Decathlon on the event {string} and the result is {double}")
     public void i_the_event_is_and_the_result_is(String event, Double result) {
 
         switch (event){
