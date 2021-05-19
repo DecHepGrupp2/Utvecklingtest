@@ -92,18 +92,10 @@ public class Main {
             }
         }
 
-    public static void setscore() {
 
 
-        /*  String [] names = nameSaver.getNames();
-            String [] event = new String []{"100m","Long jump","Shot put","High jump","400m","110m hurdles","Discus throw","Pole vault","Javelin throw","1500m"};
-            int[][] score = new int[event.length][names.length];
-            for(int i  = 0; i < event.length; i++) {
-            for (var j = 0; j < names.length; j++) {
-                score[i][j] = 10000;
+
+
             }
-        }
-        */
-    }
-}
+
 
