@@ -34,7 +34,7 @@ public class SetScore {
         Scorecard[0][19] = "1500m Result";
         Scorecard[0][20] = "1500m Points";
         Scorecard[0][21] = "Total Points";
-        System.err.println("Dagens tävling " + nameSaver.getContest());
+        System.err.println("Your contest " + nameSaver.getContest());
 
         for (int i = 0; i < names.length; i++) {
             System.out.println(names[i]);
@@ -48,52 +48,52 @@ public class SetScore {
 
                 switch (j) {
                     case 0 -> {
-                        System.out.println(Scorecard[0][j + k] + " Write resultat i sekunder på  " + names[i]);
+                        System.out.println(Scorecard[0][j + k] + " Write the result in seconds for " + names[i]);
                         result = scan.nextDouble();
                         event = "100m";
                     }
                     case 1 -> {
-                        System.out.println(Scorecard[0][j + k] + " Write resultat i centimeter på  " + names[i]);
+                        System.out.println(Scorecard[0][j + k] + " Write the result in centimeters for " + names[i]);
                         result = scan.nextDouble();
                         event = "Long jump";
                     }
                     case 2 -> {
-                        System.out.println(Scorecard[0][j + k] + " Write resultat i meter på  " + names[i]);
+                        System.out.println(Scorecard[0][j + k] + " Write the result in meters for " + names[i]);
                         result = scan.nextDouble();
                         event = "Shot put";
                     }
                     case 3 -> {
-                        System.out.println(Scorecard[0][j + k] + " Write resultat i centimeter på  " + names[i]);
+                        System.out.println(Scorecard[0][j + k] + " Write the result in centimeters for " + names[i]);
                         result = scan.nextDouble();
                         event = "High jump";
                     }
                     case 4 -> {
-                        System.out.println(Scorecard[0][j + k] + " Write resultat i sekunder på  " + names[i]);
+                        System.out.println(Scorecard[0][j + k] + " Write the result in seconds for " + names[i]);
                         result = scan.nextDouble();
                         event = "400m";
                     }
                     case 5 -> {
-                        System.out.println(Scorecard[0][j + k] + " Write resultat i sekunder på  " + names[i]);
+                        System.out.println(Scorecard[0][j + k] + " Write the result in seconds for " + names[i]);
                         result = scan.nextDouble();
                         event = "110m hurdles";
                     }
                     case 6 -> {
-                        System.out.println(Scorecard[0][j + k] + " Write resultat i meter på  " + names[i]);
+                        System.out.println(Scorecard[0][j + k] + " Write the result in meters for " + names[i]);
                         result = scan.nextDouble();
                         event = "Discus throw";
                     }
                     case 7 -> {
-                        System.out.println(Scorecard[0][j + k] + " Write resultat i centimeter på  " + names[i]);
+                        System.out.println(Scorecard[0][j + k] + " Write the result in centimeters for " + names[i]);
                         result = scan.nextDouble();
                         event = "Pole vault";
                     }
                     case 8 -> {
-                        System.out.println(Scorecard[0][j + k] + " Write resultat i meter på  " + names[i]);
+                        System.out.println(Scorecard[0][j + k] + " Write the result in meters for " + names[i]);
                         result = scan.nextDouble();
                         event = "Javelin throw";
                     }
                     case 9 -> {
-                        System.out.println(Scorecard[0][j + k] + " Write resultat i sekunder på  " + names[i]);
+                        System.out.println(Scorecard[0][j + k] + " Write the result in seconds for " + names[i]);
                         result = scan.nextDouble();
                         event = "1500m";
                     }
