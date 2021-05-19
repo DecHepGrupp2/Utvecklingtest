@@ -16,7 +16,7 @@ public class DecaCount {
         switch (event){
             case "100m" ->{
                 score=calculateRun(result, 25.4347,18,1.81);
-                System.out.println("The event is " + event + " and your time is " + result + " Sec and you got "+ score +" points");
+                System.out.println("The event is " + event + "  and your time is " + result + " Sec and you got "+ score +" points");
 
             }
             case "400m" ->{
