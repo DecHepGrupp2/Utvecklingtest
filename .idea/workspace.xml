@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2896220-a8ee-4701-8471-bb0423bd1f55" name="Default Changelist" comment="New excel scenario" />
+    <list default="true" id="e2896220-a8ee-4701-8471-bb0423bd1f55" name="Default Changelist" comment="New excel scenario2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +106,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1622033281348</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="New excel scenario2">
+      <created>1622034043701</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1622034043701</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +131,7 @@
     <MESSAGE value="HEj" />
     <MESSAGE value="New tests" />
     <MESSAGE value="New excel scenario" />
-    <option name="LAST_COMMIT_MESSAGE" value="New excel scenario" />
+    <MESSAGE value="New excel scenario2" />
+    <option name="LAST_COMMIT_MESSAGE" value="New excel scenario2" />
   </component>
 </project>
