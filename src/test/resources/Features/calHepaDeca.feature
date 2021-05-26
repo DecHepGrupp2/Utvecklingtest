@@ -1,7 +1,7 @@
 Feature: As an volunteer i want to be abel to add a result so that i get a score
 
 
-  Scenario Outline: Add a event and result get points
+  Scenario Outline: Decathlon add a event and result get points
     Given In Decathlon on the event "<event>" and the result is <result>
     When I press sum
     Then My points on the event is <points> points
@@ -27,14 +27,14 @@ Feature: As an volunteer i want to be abel to add a result so that i get a score
       | Shot put           | 13.15       | 737        |
 
     Scenario Outline: Invalid results
-      Given In "<event>" have entered "<result>"
-      When  The "<points>" are
+      Given In "<event>" have entered <result>
+      When  The <points> are
       Then The message should be "<message>"
       Examples:
-        |event|result|points|message|
-        |100m    |18 |0    |"Your points is zero are you sure that you have entered a correct result?"|
-        |100m    |8|1642|"Are you trying to cheat?"                                                |
-        |400m    |82 |0  |"Your points is zero are you sure that you have entered a correct result?"|
+        |event      |result |points |message                                |
+        |100m       |18 |0    |"Your points is zero are you sure that you have entered a correct result?"|
+        |100m       |8|1642|"Are you trying to cheat?"                                                |
+        |400m       |82 |0  |"Your points is zero are you sure that you have entered a correct result?"|
         |400m    |33  |1762|  "Are you trying to cheat?"|
         |800m    |    254|0    |"Your points is zero are you sure that you have entered a correct result?"|
         |800m    |120|1116|"Are you trying to cheat?"|
