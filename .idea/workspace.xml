@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2896220-a8ee-4701-8471-bb0423bd1f55" name="Default Changelist" comment="" />
+    <list default="true" id="e2896220-a8ee-4701-8471-bb0423bd1f55" name="Default Changelist" comment="New tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/excel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/excel.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Marie" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,6 +28,15 @@
         <option name="url" value="https://github.com/DecHepGrupp2/Utvecklingtest.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/scoringSystem/DecaCount.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/scoringSystem/SetScore.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/scoringSystem/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/Features/scoreCard.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/Features/excel.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/ExcelSteps.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/target/test-classes/Features/addAthlets.feature" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1shmJCAIRp5fdRCg9r3kqqKROll" />
   <component name="ProjectViewState">
@@ -59,6 +71,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: calHepaDeca" />
+        <item itemvalue="Cucumber Java.Feature: calHepaDeca" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +102,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1622030340236</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="New tests">
+      <created>1622033708207</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1622033708207</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
