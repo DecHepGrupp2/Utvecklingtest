@@ -14,7 +14,7 @@ Feature: Create a scorecard
       Then the score is changed
 
 
-      Scenario: See all contestants scorecard
+      Scenario: See all contestants scorecardd
         Given Scorecard with contestants results
         When I press a button to compare scores
         Then I get to see all scores from highest to lowest
