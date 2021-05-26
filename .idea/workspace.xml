@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
+    <list default="true" id="e2896220-a8ee-4701-8471-bb0423bd1f55" name="Default Changelist" comment="New excel scenario2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+
     <list default="true" id="e2896220-a8ee-4701-8471-bb0423bd1f55" name="Default Changelist" comment="" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +23,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="1b039748-5a29-4e02-a700-4c58508baea1" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -89,7 +98,31 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1622030340236</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="New excel scenario">
+      <created>1622033065269</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1622033065269</updated>
+    </task>
+    <task id="LOCAL−00005" summary="New excel scenario">
+      <created>1622033281348</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1622033281348</updated>
+    </task>
+    <task id="LOCAL−00006" summary="New excel scenario2">
+      <created>1622034043701</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1622034043701</updated>
+    </task>
+    <task id="LOCAL−00007" summary="New excel scenario2">
+      <created>1622034267828</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1622034267828</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,7 +130,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Davids" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -107,6 +152,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HEj" />
     <MESSAGE value="New tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="New tests" />
+    <MESSAGE value="New excel scenario" />
+    <MESSAGE value="New excel scenario2" />
+    <option name="LAST_COMMIT_MESSAGE" value="New excel scenario2" />
   </component>
 </project>
