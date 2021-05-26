@@ -21,7 +21,7 @@ public class ScoringStepsDeca {
 
 
     @Given("In Decathlon on the event {string} and the result is {double}")
-    public void i_the_event_is_and_the_result_is(String event, Double result) {
+    public void i_the_Decathlon_is_and_the_result_is(String event, Double result) {
 
         switch (event){
             case "100m" ->{
@@ -68,27 +68,6 @@ public class ScoringStepsDeca {
 
     }
 
-    private int calculateJump(double result,double a,double b, double c) {             //  (a(p-b)^c)
-        p = result;
-        d = p-b;
-        e = Math.pow(d, c)*a;
-        return (int) this.e;
-    }
-
-    private int calculateThrow(double result,double a,double b, double c) {        //  (a(p-b)^c)
-        p = result;
-        d = p - b;
-        e = Math.pow(d, c)*a;
-        return (int) this.e;
-    }
-
-    private int calculateRun(double result,double a,double b, double c) {            //  (a(b-p)^c)
-        p = result;
-        d = b - p;
-        e = Math.pow(d, c)*a;
-        return (int) this.e;
-    }
-
     @When("I press sum")
     public void i_press_sum() {
     }
@@ -96,6 +75,101 @@ public class ScoringStepsDeca {
     @Then("My points on the event is {int} points")
     public void my_points_on_the_event_is_points(Integer int1) {
         assertEquals(int1, score);
+    }
+
+    @Given("In Heptathlon on the event {string} and the result is {double}")
+    public void i_the_Hepathlon_is_and_the_result_is(String event, Double result) {
+
+        switch (event){
+            case "200m" ->{
+                score=calculateRun(result, 4.99087,42.5,1.81);
+                System.out.println("The event is " + event + " and your time is " + result + " Sec and you got "+ score +" points");
+            }
+            case "800m" ->{
+                score=calculateRun(result, 0.11193,254,1.88);
+                System.out.println("The event is " + event + " and your time is " + result + " Sec and you got "+ score +" points");
+            }
+            case "100m hurdles" ->{
+                score=calculateRun(result, 9.23076,26.7 ,12.93);
+                System.out.println("The event is " + event + " and your time is " + result + " Sec and you got "+ score +" points");
+            }
+            case "Long jump" ->{
+                score=calculateJump(result , 0.188807, 210,1.41);
+                System.out.println("The event is " + event + " and you jumped " + result + " Centimeters and you got "+ score +" points");
+            }
+            case "High jump" ->{
+                score=calculateJump(result , 1.84523, 75,1.348);
+                System.out.println("The event is " + event + " and you jumped " + result + " Centimeters and you got "+ score +" points");
+            }
+            case "Shot put" -> {
+                score=calculateThrow(result, 56.02111, 1.5,1.05);
+                System.out.println("The event is " + event + " and you Threw " + result + " Meters and you got "+ score +" points");
+            }
+            case "Javelin throw" -> {
+                score=calculateThrow(result, 15.9803, 3.8,1.04);
+                System.out.println("The event is " + event + " and you Threw " + result + " Meters and you got "+ score +" points");
+            }
+        }
+
+    }
+
+
+
+    @When("I press count")
+    public void i_press_count() {
+    }
+
+    @Then("My Hepta points on the event is {int} points")
+    public void my_points_on_the_event2_is_points(Integer int1)
+    {
+        assertEquals(int1, score);
+    }
+
+
+
+    @Given("In {string} have entered {double}")
+    public void in_have_entered(String event, double result) {
+
+    }
+
+    @When("The {int} are")
+    public void the_are(double points) {
+
+    }
+
+    @Then("The message should be \"\"Your points is zero are you sure that you have entered a correct result?{string}")
+    public void the_message_should_be_your_points_is_zero_are_you_sure_that_you_have_entered_a_correct_result(String string) {
+
+    }
+
+    @Then("The message should be \"\"Are you trying to cheat?{string}")
+    public void the_message_should_be_are_you_trying_to_cheat(String string) {
+
+    }
+
+
+
+
+
+    public int calculateJump(double result,double a,double b, double c) {             //  (a(p-b)^c)
+        p = result;
+        d = p-b;
+        e = Math.pow(d, c)*a;
+        return (int) this.e;
+    }
+
+    public int calculateThrow(double result,double a,double b, double c) {        //  (a(p-b)^c)
+        p = result;
+        d = p - b;
+        e = Math.pow(d, c)*a;
+        return (int) this.e;
+    }
+
+    public int calculateRun(double result,double a,double b, double c) {            //  (a(b-p)^c)
+        p = result;
+        d = b - p;
+        e = Math.pow(d, c)*a;
+        return (int) this.e;
     }
 }
 

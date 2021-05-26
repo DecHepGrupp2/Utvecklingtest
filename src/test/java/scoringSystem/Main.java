@@ -6,7 +6,7 @@ public class Main {
 
         public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
-
+            String game="";
             boolean Notquit = true;
             while (Notquit) {
 
@@ -49,9 +49,9 @@ public class Main {
 
                             //poäng  för alla deltagare
                             //System.out.println("Write scores for your participants");
-
+                        game="Deca";
                         }
-                        SetScore.setScore();
+                        SetScore.setScore(game);           // Hämtar scorecard och börjar inmatning av resultat
                     } else if (valMeny2 == 2) {
 
                         System.out.println("Name your contest");
