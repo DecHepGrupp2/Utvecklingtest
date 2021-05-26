@@ -9,7 +9,7 @@ public class SetScore {
     static String event;
     static double result;
 
-    public static void setScore() {
+    public static void setScore(String game) {
         String[] names = nameSaver.getNames();
         String[][] Scorecard = new String[names.length + 1][22];
         Scorecard[0][0] = "Participants";                //Scorecard [1][0]  Name of first participants
@@ -98,10 +98,10 @@ public class SetScore {
                         event = "1500m";
                     }
                 }
-
+                                                                                // Lagrar beräkning av poäng i matrisen
                 DecaCount ScoreDeca = new DecaCount();
                 Scorecard[i + 1][j + k] = String.valueOf(result);
-                Scorecard[i + 1][j + k + 1] = String.valueOf(ScoreDeca.decaCount(event, result));
+                Scorecard[i + 1][j + k + 1] = String.valueOf(ScoreDeca.decaCount(event, result,game));
             }
         }
 
