@@ -4,17 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="e2896220-a8ee-4701-8471-bb0423bd1f55" name="Default Changelist" comment="New excel scenario2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/CalcScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/ScoringStepsDeca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ScoringStepsDeca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/scoreCard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/scoreCard.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/scoringSystem/DecaCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/scoringSystem/DecaCount.class" afterDir="false" />
     </list>
-
-    <list default="true" id="e2896220-a8ee-4701-8471-bb0423bd1f55" name="Default Changelist" comment="" />
-
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -36,6 +44,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1shmJCAIRp5fdRCg9r3kqqKROll" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -130,19 +141,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="Davids" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
